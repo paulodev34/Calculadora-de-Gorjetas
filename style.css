@@ -7,11 +7,16 @@ html,body{
 	height: 100%;
 }
 
+.clear{
+	clear: both;
+}
+
 .container{
-	align-items: center;
-	height: 400px;#483c59;
-	width: 400px;
-	background-color: #bbaabf;
+	margin: 60px auto;
+	height: 400px;
+	width: 650px;
+	background-color: #298ea6;
+	border-radius: 5px;
 
 }
 
@@ -19,6 +24,46 @@ html,body{
 	background-color: black;
 	text-align: center;
 	color: white;
-	height: 5rem;
+	height: 4em;
 	
+}
+
+.titulo h1{
+	padding-top: 10px;
+}
+
+ p{
+	color: white;
+}
+
+.input{
+	width: 6rem;
+	height: 1.5rem;
+}
+
+.container1{
+	margin-left: 250px ;
+}
+
+ button {
+	background-color: #0b404d;
+	color: white;
+	width: 6rem;
+	height: 2rem;
+	border-radius: 5px;
+	display: inline-block;
+}
+
+.input2{
+	width: 6rem;
+	height: 1.3rem;
+}
+
+.formsubmit{
+	width: 8rem;
+	height: 3rem;
+	margin: 4rem 15rem;
+	background-color: #0b404d;
+	border-radius: 5px;
+	color: white;
 }
