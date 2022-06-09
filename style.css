@@ -13,8 +13,8 @@ html,body{
 
 .container{
 	margin: 60px auto;
-	height: 540px;
-	width: 650px;
+	height: 440px;
+	width: 680px;
 	background-color: #298ea6;
 	border-radius: 5px;
 }
@@ -28,7 +28,7 @@ html,body{
 }
 
 .titulo h1{
-	padding-top: 10px;
+	padding-top: 1rem;
 }
 
  p{
@@ -48,21 +48,26 @@ form{
 	width: 9rem;
 	height: 1.8rem;
 }
-
-.servico p{
- 	padding: 10px;
-	margin-left: 430px;
+.servico{
+	top: 50%;
 }
 
 .container1{
-	margin-left: 320px;
-	padding-right: 30px;
-	padding-top: 20px;
+	margin: 5% 5%;
+	float: right;
+	height: 12rem;
+	width: 20rem;
+
+	background-color: black;
+}
+
+.container1 p{
+	margin-top: 0.7rem;
+	text-align: center;
 }
 
 button{
-	margin: 5px;
- 	float: right;
+	margin: 25px 0 0 30px;
 	background-color: #0b404d;
 	color: white;
 	width: 7rem;
@@ -71,9 +76,8 @@ button{
 }
 
 button:hover{
-	margin: 5px;
-	float: right;
-	background-color: black;
+	margin: 25px 0 0 30px;
+	background-color: #00b6f6;
 	color: white;
 	width: 7rem;
 	height: 3rem;
@@ -92,7 +96,7 @@ button:hover{
 .formsubmit{
 	width: 8rem;
 	height: 3rem;
-	margin: 4rem 15rem;
+	margin: 2rem 17rem;
 	background-color: #0b404d;
 	border-radius: 5px;
 	color: white;
@@ -101,14 +105,8 @@ button:hover{
 .formsubmit:hover{
 	width: 8rem;
 	height: 3rem;
-	margin: 4rem 15rem;
+	margin: 2rem 17rem;
 	background-color: black;
 	border-radius: 5px;
 	color: white;
-}
-
-label .servico{
-	background-color: black;
-	height: 300px;
-	width: 300;
 }
