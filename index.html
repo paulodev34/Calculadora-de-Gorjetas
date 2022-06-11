@@ -9,39 +9,36 @@
 <body>
 
 	<div class="container">
-		<div class="titulo">
-			<h1>Calcule a Gorjeta</h1>
-		</div><!--titulo-->
 
 		<form>
 			<label for="cont">
-				<p>Qual o valor da conta</p>
-			<p>
-				R$ <input type="number" name="cont" id="cont" class="input" placeholder="$">
-			</p>
-				<p>Quantas pessoas vâo dividir?</p>
-				<p>
-					<input type="number" name="pesoas" id="pessoas" class="input2" placeholder="pessoas">pessoas
-				</p>
+				<h3>Valor da conta</h3>
+				 <input type="number" name="cont" id="cont" class="input" placeholder="$">
+				<h3>Pessoas</h3>
+				<input type="number" name="pesoas" id="pessoas" class="input2" placeholder="pessoas">
 			</label><!-cont-->
 		</form>
 
-			<label class="servico">
 
 				<div class="container1">
-				<p>Como foi a experiencia?</p>
-					<button value="0.2">20%</button>
-					<button value="0.15">15%</button>
-					<button value="0.10">10%</button>
-					<button value="0.05">5%</button>
+				<h3>Como foi a experiencia?</h3>
+					<input type="button" value="20%" name="" class="forminput"></button>
+					<input type="button" value="15%" name="" class="forminput"></button>
+					<input type="button" value="10%" name="" class="forminput"></button>
+					<input type="button" value="5%" name="" class="forminput"></button>
 				</div>
 				<div class="clear"></div>
 
-			</label><!--servico-->
+				<div id="Valor">
+					Valor da gorjeta
+					R$<span id="total"></span>
+					<span id="totalpeople"></span>
+				</div>
 
 			<button type="submit" class="formsubmit">Valor</button>
 	
 	</div><!--container-->
+	<script type="text/javascript" src="script.js"></script>
 
 </body>
 </html>
