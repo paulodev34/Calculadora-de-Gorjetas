@@ -10,33 +10,36 @@
 
 	<div class="container">
 
-		<form class="tips" id="tips">
+		<form class="tipsform" id="tipsform">
 			<label for="cont">
 				<h3>Valor da conta</h3>
 				 <input type="number" name="cont" id="cont" class="cont" placeholder="$">
+				 
 				<h3>Pessoas</h3>
-				<input type="number" name="pesoas" id="pessoas" class="pessoas" placeholder="pessoas">
+				<input type="number" name="pessoas" id="servicepessoas" class="pessoas" >
 			</label><!-cont-->
-		</form>
+					
 
-					<label for="quality" id="quality">
-						<div class="container1" id="quality">
-				<h3>Como foi a experiencia?</h3>
-					<input type="button" value="20%" name="" class="forminput"></button>
-					<input type="button" value="15%" name="" class="forminput"></button>
-					<input type="button" value="10%" name="" class="forminput"></button>
-					<input type="button" value="5%" name="" class="forminput"></button>
+				 	<label class="quality" id="quality">
+					<h3>Como foi a experiencia?</h3>
+					
+					
+					<input type="button" value="20%" class="forminput" > </input>
+					<input type="button" value="15%" class="forminput"></input>
+					<input type="button" value="10%" class="forminput"></input>
+					<input type="button" value="5%" class="forminput"></input>
+				
+
 					</label>
-				</div>
-				<div class="clear"></div>
 
-				<div id="Valor">
-					Valor da gorjeta
-					R$<span id="total"></span>
-					<span id="totalpeople"></span>
+				<div id="totaltip">
+					Valor da gorjeta:
+					R$<span id="total">0.00</span>
+					<span id="totalpeople">Cada</span>
 				</div>
 
-			<button type="submit" class="formsubmit">Valor</button>
+			<button type="submit" class="formsubmit">Calcular</button>
+			</form>
 	
 	</div><!--container-->
 
