@@ -14,16 +14,15 @@ html,body{
 .container{
 	margin: 60px auto;
 	height: 480px;
-	width: 680px;
+	width: 380px;
 	background-color: #298ea6;
 	border-radius: 12px;
 }
 
 
 form{
-	float: left;
 	padding: 50px 0;
-	margin: 2rem;
+	margin: 7.3rem;
 }
 
 form h3{
@@ -47,59 +46,37 @@ form h3{
 	height: 1.8rem;
 }
 
-.quality{
-	margin: -18% -1%;
-	float: right;
-	height: 12rem;
-	width: 20rem;
-	border-radius: 5px;
-	background-color: 	#B0C4DE;
-}
-
 .quality h3{
-	margin-top: 0.7rem;
-	text-align: center;
+	margin: 1rem 2rem 0 1rem;
 }
 
-.forminput{
-	margin: 18px 0 0 30px;
-	background-color: #0b404d;
-	color: white;
-	width: 7rem;
-	height: 3rem;
+.quality{
+	height: 1rem;
+	width: 2rem;
 	border-radius: 5px;
-	box-shadow: #0b404d 3px 3px 0px;
-	transition: transform 200ms, box-shadow 200ms;
 }
 
-.forminput:active{
-	margin: 18px 0 0 30px;
-	color: white;
-	width: 7rem;
-	height: 3rem;
-	border-radius: 5px;
-	transform: translateY(3px) translateX(3px);
-	box-shadow: 0px 0px 0px;
-	
+.formselect{
+	margin: 1rem -0.2rem;
 }
 
 .formsubmit{
-	position: relative;
 	width: 8rem;
 	height: 3rem;
-	margin: 4rem 15rem;
+	margin: 3rem 0.2rem;
 	background-color: #0b404d;
 	border-radius: 5px;
+	display: inline-block;
 	color: white;
 	box-shadow: #0b404d 3px 3px 0px;
 	transition: transform 200ms, box-shadow 200ms;
 }
 
 .formsubmit:active{
-	position: relative;
 	width: 8rem;
 	height: 3rem;
-	margin: 4rem 15rem;
+	margin: 3rem 0.2rem;
+	display: inline-block
 	border-radius: 5px;
 	color: white;
 	transform: translateY(3px) translateX(3px);
@@ -107,8 +84,8 @@ form h3{
 }
 
 #totaltip{
-	text-align: center;
-	font-size: 2rem;
+	display: inline-block;
 	color: black;
-	margin-top: 5rem ;
+	margin: 0.1rem 2rem;
 }
+

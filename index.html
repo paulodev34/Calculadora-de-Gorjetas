@@ -16,25 +16,27 @@
 				 <input type="number" name="cont" id="cont" class="cont" placeholder="$">
 				 
 				<h3>Pessoas</h3>
-				<input type="number" name="pessoas" id="servicepessoas" class="pessoas" >
+				<input type="number" name="pessoas" id="pessoas" class="pessoas" >
 			</label><!-cont-->
 					
 
-				 	<label class="quality" id="quality">
+				 	<label class="quality" >
 					<h3>Como foi a experiencia?</h3>
 					
-					
-					<input type="button" value="20%" class="forminput" > </input>
-					<input type="button" value="15%" class="forminput"></input>
-					<input type="button" value="10%" class="forminput"></input>
-					<input type="button" value="5%" class="forminput"></input>
-				
+						<select name="quality" id="quality" class="formselect">
+							<option disable selected value="0">-- Escolha um opção </option>
+							<option value="0.3" > 30% - Incrível</option>
+							<option value="0.2"> 20% - Bom</option>
+							<option value="0.15"> 15% - Aceitavél</option>
+							<option value="0.10"> 10% - Ruím</option>
+							<option value="0.05"> 05% - Péssimo</option>
+						</select>
 
 					</label>
 
 				<div id="totaltip">
-					Valor da gorjeta:
-					R$<span id="total">0.00</span>
+					Gorjeta:
+					R$<span id="total">0,00</span>
 					<span id="totalpeople">Cada</span>
 				</div>
 
